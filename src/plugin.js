@@ -4,6 +4,11 @@ var fs = require('fs');
 // Request hook to set header on every request
 module.exports.requestHooks = [
   context => {
+    const isOracleCloud = context.request.getEnvironmentVariable('isOracleCloud');
+
+    if (isOracleCloud != "true")
+      return;
+
     const tenancyId = context.request.getEnvironmentVariable('tenancyId');
     const authUserId = context.request.getEnvironmentVariable('authUserId');
     const keyFingerprint = context.request.getEnvironmentVariable('keyFingerprint');
