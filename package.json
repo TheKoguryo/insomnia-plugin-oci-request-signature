@@ -1,0 +1,15 @@
+{
+  "name": "insomnia-plugin-oci-request-signature",
+  "version": "1.0.0",
+  "author": "DongHee Lee",
+  "description": "OCI Request Signature for Insomnia REST Client",
+  "repository": "",
+  "bugs": "",
+  "homepage": "",
+  "license": "",
+  "main": "./src/plugin.js",
+  "insomnia": {
+    "name": "oci-request-signature",
+    "description": "OCI Request Signature"
+  }
+}
