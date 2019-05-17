@@ -1,12 +1,13 @@
 {
   "name": "insomnia-plugin-oci-request-signature",
   "version": "1.0.0",
-  "author": "DongHee Lee",
-  "description": "OCI Request Signature for Insomnia REST Client",
-  "repository": "",
-  "bugs": "",
-  "homepage": "",
-  "license": "",
+  "author": "DongHee Lee <thekoguryo@gmail.com>",
+  "description": "OCI Request Signature Plugin for Insomnia REST Client",
+  "repository": "https://github.com/TheKoguryo/insomnia-plugin-oci-request-signature",
+  "bugs": {
+    "url": "https://github.com/TheKoguryo/insomnia-plugin-oci-request-signature"
+  },
+  "homepage": "https://github.com/TheKoguryo/insomnia-plugin-oci-request-signature#readme",
   "main": "./src/plugin.js",
   "insomnia": {
     "name": "oci-request-signature",
