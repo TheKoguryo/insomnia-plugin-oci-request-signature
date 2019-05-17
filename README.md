@@ -6,6 +6,7 @@ Provides custom request hook plugin to call OCI REST API with OCI request signat
 
 ## Installation
 1. Download plugin zip
+
 https://github.com/TheKoguryo/insomnia-plugin-oci-request-signature/releases/download/1.0.0/insomnia-plugin-oci-request-signature.zip
 
 2. Extract zip file to Insomnia Plugins Folder
