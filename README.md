@@ -11,9 +11,11 @@ https://github.com/TheKoguryo/insomnia-plugin-oci-request-signature/archive/mast
 2. Extract zip file to Insomnia Plugins Folder
 
     - Insomnia > Application Menu > Preferences > Plugins Tab
+    
     ![preferences](insomnia-preferences.png)
 
     - Extract
+    
     ![install](install_plugin.png)
 
 3. Reload Plugin List
